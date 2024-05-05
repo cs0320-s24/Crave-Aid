@@ -43,12 +43,6 @@ public class Server {
     Spark.get("/clear-ingredients", new ClearIngredientsHandler(firebase_utility));
     Spark.get("/get-recipes", new RecipeCallHandler());
 
-    // Add similar routes for removing, getting, and clearing ingredients
-
-    // Spark.get("/add-pin", new AddPinHandler(firebase_utility));
-    // Spark.get("/get-pins", new GetPinsHandler(firebase_utility));
-    // Spark.get("/clear-pins", new ClearPinsHandler(firebase_utility));
-
     // CLEARING USER (for e2e testing)
     Spark.get("/clear-user", new ClearUserHandler(firebase_utility));
 
