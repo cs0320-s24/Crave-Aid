@@ -17,6 +17,8 @@ dist/
 test-results/
 playwright-report/
 playwright/.cache/
+client/node_modules/.vite/deps/_metadata.json
+
 
 # mac
 .DS_Store
